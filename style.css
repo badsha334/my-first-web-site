@@ -12,7 +12,7 @@ h1{
 .color-pink{
     color: red;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom:150px;
 }
@@ -35,4 +35,31 @@ padding-left: 10%;
     background-image: url(tr.jpg);
     background-repeat: no-repeat;
 
+}
+.expariance{
+    background-image:url(corner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px;
+}
+.expariance-item{
+    width:40% ;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+   
+}
+#full{
+    border-left: 10px solid;
+  
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 10px solid;
+  
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
